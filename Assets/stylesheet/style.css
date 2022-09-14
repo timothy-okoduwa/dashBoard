@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
+
+.wrapper .sidebar{
+background: #333333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 226px;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+ 
+
+
+.dashnname{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+.manager{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+margin-top: 20px;
+
+color: #34912B;
+}
+
+.prof
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+text-align: right;
+color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper .section{
+  
+    margin-left: 225px;
+    transition: all 0.5s ease;
+    position: fixed;
+margin-top: 500px;
+}
+
+.wrapper .section .top_navbar{
+    /* background: rgb(7, 105, 185); */
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    /* padding: 0 30px; */
+
+}
+
+.wrapper .section .top_navbar .hamburger a{
+    font-size: 28px;
+    color: #000000;
+  
+}
+
+
+body.active .wrapper .sidebar{
+    left: -225px;
+    /* background-color: white; */
+}
+
+body.active .wrapper .section{
+    margin-left: 0;
+    width: 100%;
+    /* background-color: white; */
+}
+.woman{
+    display:flex ;
+    justify-content: space-around;
+}
+
+.navigation{
+    /* background-color: red; */
+    height: 50px;
+    /* border-bottom: 1px solid grey; */
+    margin-left: 226px;
+}
+.height{
+    /* background-color: red; */
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    color: white;
+}
+.uq {
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+    padding-top: 10% ;
+    text-decoration: none;
+    color: white;
+}
+.uq :hover {
+    /* display: flex;
+    justify-content:  space-evenly; */
+    background: rgba(231, 172, 62, 0.1);
+}
+
+a{
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+padding: 5%;
+color:#ECBD64;
+
+
+}
+
+.ingpsh{
+  
+    display: flex;
+   margin-left: -30px;
+}
+.ingpsh2{
+  
+    display: flex;
+   margin-left: -20px;
+}
+.ingpsh3{
+  
+    display: flex;
+   margin-left: -20px;
+}
+
+
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Dropdown Button */
+.dropbtn {
+
+  cursor: pointer;
+}
+.dropbtn2 {
+
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+width: 100%;
+  z-index: 1;
+}
+.dropdown-content2 {
+  display: none;
+width: 100%;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+
+  /* padding: 12px 16px; */
+  text-decoration: none;
+  height: 100%;
+  text-align: center;
+  /* width: 100vw; */
+  justify-content: center;
+display: flex;
+flex-direction: column;
+}
+
+/* Change color of dropdown links on hover */
+/* .dropdown-content a:hover {
+width: 100vw;
+display: flex;
+flex-direction: column;
+height: 100%;
+} */
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+.show2 {display:block;}
+
+
+
+.flxup{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  /* flex-direction: row; */
+  /* align-items: center; */
+  width: 100%;
+flex-wrap: wrap;
+
+}
+.jput{
+  height: 38px;
+  width: 340px;
+outline: none;
+border: none;
+background: rgba(218, 218, 218, 0.24);
+border-radius: 5px;
+}
+
+
+
+.structure{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size:14px;
+color: #1D242E;
+}
+.sun{
+  font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+text-align: right;
+
+color: #1D242E;
+}
+
+
+.report{
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Plus Jakarta Sans';
+  margin-top: 50px;
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #333333;
+}
+
+
+.status{
+  margin-left: 226px;
+  margin-top: 24px;
+}
+.statholder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Card{
+  background-color: red;
+  text-align: center;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 210px;
+}
+.inventory{
+  margin-left: 226px;
+  margin-top: 24px;
+}
+.driver{
+  display: flex;
+  justify-content: center;
+}
+
+
+.car{
+  height: 120px;
+  width: 420px;
+  border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
