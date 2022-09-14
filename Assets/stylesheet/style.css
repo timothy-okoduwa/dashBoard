@@ -368,22 +368,99 @@ color: #333333;
 
 
 .car{
-  height: 120px;
-  width: 420px;
-  border: 1px solid black;
+  height: 140px;
+  width: 400px;
+  border-radius: 10px;
+ border:  0.5px solid #BFC4C9;
+}
+.inve{
+  font-family: 'poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+margin-top: 17px;
+
+text-align: center;
+
+color: #FFFFFF;
 }
 
 
 
+.mertro{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  /* identical to box height, or 110% */
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+.tory{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
 
 
+color: #1D242E;
+}
+.config{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+color: #1D242E;
+}
+.num{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+color: #1D242E;
+
+}
+.num2{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+color: #1D242E;
+text-align: center;
+padding-right: 20px;
+/* width: 60%; */
+/* background-color: red; */
+}
 
 
+.total{
+  font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #1D242E;
+margin-top: 17px;
 
+}
+.total2{
+  font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #1D242E;
+padding-right: 20px;
+margin-top: 17px;
 
-
-
-
+}
 
 
 
